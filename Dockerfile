@@ -1,4 +1,4 @@
-FROM alpine:3.18
+FROM node:21-alpine
 WORKDIR /react_pipeline_project
 COPY /public /react_pipeline_project/public
 COPY /src /react_pipeline_project/src
